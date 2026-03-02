@@ -81,17 +81,17 @@ export const values = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Rajesh Kumar",
+    name: "Mukund Verma",
     position: "Founder & CEO",
     bio: "25+ years of experience in wealth management and investment advisory. Former VP at leading investment bank.",
-    image: "https://ui-avatars.com/api/?name=Rajesh+Kumar&size=400&background=0a1628&color=D4AF37&bold=true"
+    image: "https://ui-avatars.com/api/?name=Mukund+Verma&size=400&background=0a1628&color=D4AF37&bold=true"
   },
   {
     id: 2,
-    name: "Priya Sharma",
+    name: "Vikram",
     position: "Chief Investment Officer",
     bio: "Expert in portfolio management with 20+ years experience. Specializes in equity research and market analysis.",
-    image: "https://ui-avatars.com/api/?name=Priya+Sharma&size=400&background=0a1628&color=D4AF37&bold=true"
+    image: "https://ui-avatars.com/api/?name=Vikram&size=400&background=0a1628&color=D4AF37&bold=true"
   },
   {
     id: 3,
