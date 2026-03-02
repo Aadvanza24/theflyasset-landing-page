@@ -69,6 +69,14 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#0a1628] via-[#1a2332] to-[#0a1628] text-white pt-32 pb-20 overflow-hidden">
+        {/* Background Image Overlay */}
+        <div className="absolute inset-0 opacity-5">
+          <img 
+            src="https://images.unsplash.com/photo-1758518728641-8668e601cce1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
+            alt="Professional Team"
+            className="w-full h-full object-cover"
+          />
+        </div>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-72 h-72 bg-[#D4AF37] rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
@@ -124,7 +132,18 @@ const Home = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
+      <section id="services" className="py-20 bg-white relative">
+        {/* Feature Image */}
+        <div className="container mx-auto px-4 mb-12">
+          <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-xl">
+            <img 
+              src="https://images.unsplash.com/photo-1758518729841-308509f69a7f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
+              alt="Financial Planning Team"
+              className="w-full h-80 object-cover"
+            />
+          </div>
+        </div>
+        
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">Our Services</h2>
@@ -165,8 +184,16 @@ const Home = () => {
       </section>
 
       {/* About / Values Section */}
-      <section id="about" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section id="about" className="py-20 bg-gray-50 relative">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <img 
+            src="https://images.unsplash.com/photo-1592495989226-03f88104f8cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
+            alt="Financial Growth"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">Why Choose Us</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -191,9 +218,76 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section id="team" className="py-20 bg-white">
+      {/* Our Approach Section - New Visual Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">Our Approach</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Data-driven insights combined with personalized strategies for optimal results
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {/* Approach Card 1 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
+                alt="Financial Analysis"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Deep Research</h3>
+                  <p className="text-white/80 text-sm">Comprehensive market analysis and data-driven insights</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Approach Card 2 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1765438869297-6fa4b627906a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
+                alt="Strategic Planning"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Strategic Planning</h3>
+                  <p className="text-white/80 text-sm">Customized investment strategies aligned with your goals</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Approach Card 3 */}
+            <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1758519289022-5f9dea0d8cdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
+                alt="Client Partnership"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Ongoing Partnership</h3>
+                  <p className="text-white/80 text-sm">Continuous monitoring and optimization of your portfolio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section id="team" className="py-20 bg-white relative">
+        {/* Background accent */}
+        <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
+          <img 
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwxfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
+            alt="Wealth Management"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">Meet Our Leadership</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -221,8 +315,16 @@ const Home = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-br from-[#0a1628] to-[#1a2332] text-white">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-to-br from-[#0a1628] to-[#1a2332] text-white relative overflow-hidden">
+        {/* Background overlay */}
+        <div className="absolute inset-0 opacity-5">
+          <img 
+            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHw0fHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
+            alt="Professional Consultation"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Client Success Stories</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
