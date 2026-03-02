@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-[#0a1628]/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white shadow-lg' : 'bg-white'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -60,7 +60,7 @@ const Header = () => {
                 key={link.name}
                 href={link.path}
                 onClick={(e) => scrollToSection(e, link.path)}
-                className="text-white/90 hover:text-[#D4AF37] transition-colors duration-200 font-medium"
+                className="text-[#0a1628] hover:text-[#D4AF37] transition-colors duration-200 font-medium"
               >
                 {link.name}
               </a>
@@ -79,7 +79,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white"
+            className="md:hidden text-[#0a1628]"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -88,14 +88,14 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-[#0a1628] border-t border-white/10">
+          <div className="md:hidden bg-white border-t border-gray-200">
             <nav className="flex flex-col py-4 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.path}
                   onClick={(e) => scrollToSection(e, link.path)}
-                  className="text-white/90 hover:text-[#D4AF37] px-4 py-2 transition-colors duration-200"
+                  className="text-[#0a1628] hover:text-[#D4AF37] px-4 py-2 transition-colors duration-200"
                 >
                   {link.name}
                 </a>
