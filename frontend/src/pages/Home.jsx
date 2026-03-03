@@ -70,10 +70,10 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#0a1628] via-[#1a2332] to-[#0a1628] text-white pt-32 pb-20 overflow-hidden">
         {/* Background Image Overlay */}
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-10">
           <img 
-            src="https://images.unsplash.com/photo-1758518728641-8668e601cce1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
-            alt="Professional Team"
+            src="https://images.unsplash.com/photo-1639312091690-8b26d223c5a4?w=1920&q=80"
+            alt="Indian Business Professionals"
             className="w-full h-full object-cover"
           />
         </div>
@@ -137,8 +137,8 @@ const Home = () => {
         <div className="container mx-auto px-4 mb-12">
           <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1758518729841-308509f69a7f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
-              alt="Financial Planning Team"
+              src="https://images.unsplash.com/photo-1722573783625-eceb04251036?w=1920&q=80"
+              alt="Indian Business Team Meeting"
               className="w-full h-80 object-cover"
             />
           </div>
@@ -188,8 +188,8 @@ const Home = () => {
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <img 
-            src="https://images.unsplash.com/photo-1592495989226-03f88104f8cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
-            alt="Financial Growth"
+            src="https://images.unsplash.com/photo-1769556669134-fe947b53bdbf?w=1920&q=80"
+            alt="Indian Business Growth"
             className="w-full h-full object-cover"
           />
         </div>
@@ -232,8 +232,8 @@ const Home = () => {
             {/* Approach Card 1 */}
             <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwzfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
-                alt="Financial Analysis"
+                src="https://images.unsplash.com/photo-1771244678811-50c22f17c791?w=800&q=80"
+                alt="Indian Financial Executive"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
@@ -247,8 +247,8 @@ const Home = () => {
             {/* Approach Card 2 */}
             <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1765438869297-6fa4b627906a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
-                alt="Strategic Planning"
+                src="https://images.unsplash.com/photo-1684144103636-1059b160184e?w=800&q=80"
+                alt="Indian Conference Room Meeting"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
@@ -262,8 +262,8 @@ const Home = () => {
             {/* Approach Card 3 */}
             <div className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1758519289022-5f9dea0d8cdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxmaW5hbmNpYWwlMjBwbGFubmluZyUyMG1lZXRpbmd8ZW58MHx8fHwxNzcyNDc2NTg1fDA&ixlib=rb-4.1.0&q=85"
-                alt="Client Partnership"
+                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80"
+                alt="Professional Business Meeting"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 to-transparent flex items-end p-6">
@@ -282,8 +282,8 @@ const Home = () => {
         {/* Background accent */}
         <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
           <img 
-            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwxfHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
-            alt="Wealth Management"
+            src="https://images.unsplash.com/photo-1748344640396-b399cfdfb0b9?w=1200&q=80"
+            alt="Indian Corporate Building"
             className="w-full h-full object-cover"
           />
         </div>
@@ -317,10 +317,10 @@ const Home = () => {
       {/* Testimonials Section */}
       <section className="py-20 bg-gradient-to-br from-[#0a1628] to-[#1a2332] text-white relative overflow-hidden">
         {/* Background overlay */}
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-8">
           <img 
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHw0fHx3ZWFsdGglMjBtYW5hZ2VtZW50fGVufDB8fHx8MTc3MjQ3NjU4OXww&ixlib=rb-4.1.0&q=85"
-            alt="Professional Consultation"
+            src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1920&q=80"
+            alt="Professional Indian Workspace"
             className="w-full h-full object-cover"
           />
         </div>
