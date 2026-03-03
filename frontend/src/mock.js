@@ -114,7 +114,7 @@ export const testimonials = [
     id: 1,
     name: "Vikram Malhotra",
     position: "Entrepreneur",
-    company: "Tech Ventures Pvt Ltd",
+    company: "",
     content: "The Fly Asset has transformed my investment portfolio. Their personalized approach and deep market insights have helped me achieve returns beyond my expectations.",
     rating: 5
   },
@@ -122,7 +122,7 @@ export const testimonials = [
     id: 2,
     name: "Anjali Desai",
     position: "Business Owner",
-    company: "Desai Textiles",
+    company: "",
     content: "Working with The Fly Asset has been exceptional. Their team's professionalism and commitment to my financial goals have given me confidence in my investment decisions.",
     rating: 5
   },
@@ -130,7 +130,7 @@ export const testimonials = [
     id: 3,
     name: "Rohit Kapoor",
     position: "CFO",
-    company: "Global Solutions Inc",
+    company: "",
     content: "The transparency and consistent performance from The Fly Asset's portfolio management service has been remarkable. Highly recommended for serious investors.",
     rating: 5
   },
@@ -138,7 +138,7 @@ export const testimonials = [
     id: 4,
     name: "Meera Iyer",
     position: "Medical Professional",
-    company: "Apollo Hospitals",
+    company: "",
     content: "As a busy professional, I needed someone I could trust with my investments. The Fly Asset has exceeded my expectations with their dedicated service and results.",
     rating: 5
   }

@@ -344,7 +344,6 @@ const Home = () => {
                 <div>
                   <p className="font-semibold text-[#D4AF37]">{testimonial.name}</p>
                   <p className="text-white/70 text-sm">{testimonial.position}</p>
-                  <p className="text-white/60 text-sm">{testimonial.company}</p>
                 </div>
               </div>
             ))}
