@@ -183,7 +183,78 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About / Values Section */}
+      {/* Investment Process Section - New Inspired by Reference Sites */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">How We Work</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              A simple, transparent process designed to understand your goals and deliver results
+            </p>
+          </div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              {/* Step 1 */}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  1
+                </div>
+                <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Initial Consultation</h3>
+                <p className="text-gray-600 text-sm">
+                  We understand your financial goals, risk appetite, and investment timeline
+                </p>
+              </div>
+
+              {/* Step 2 */}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  2
+                </div>
+                <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Strategy Development</h3>
+                <p className="text-gray-600 text-sm">
+                  Our experts create a customized investment strategy tailored to your needs
+                </p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  3
+                </div>
+                <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Portfolio Execution</h3>
+                <p className="text-gray-600 text-sm">
+                  We implement the strategy with careful market analysis and timing
+                </p>
+              </div>
+
+              {/* Step 4 */}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                  4
+                </div>
+                <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Ongoing Support</h3>
+                <p className="text-gray-600 text-sm">
+                  Regular reviews, performance tracking, and strategy adjustments as needed
+                </p>
+              </div>
+            </div>
+
+            {/* Process Flow Arrow */}
+            <div className="mt-12 text-center">
+              <Button
+                className="bg-[#0a1628] hover:bg-[#1a2332] text-white font-semibold px-8 py-6 text-lg"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Start Your Investment Journey
+                <ArrowRight className="ml-2" size={20} />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
       <section id="about" className="py-20 bg-gray-50 relative">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -214,6 +285,50 @@ const Home = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Client Benefits Section - New */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#0a1628] mb-4">What You Get</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Comprehensive financial solutions backed by years of expertise
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-[#0a1628] rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-[#D4AF37]" />
+              </div>
+              <h3 className="text-xl font-semibold text-[#0a1628] mb-3">SEBI Registered</h3>
+              <p className="text-gray-600">
+                Fully compliant with regulatory standards ensuring your investments are secure
+              </p>
+            </div>
+
+            <div className="text-center p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-[#0a1628] rounded-full flex items-center justify-center mx-auto mb-4">
+                <TrendingUp className="w-8 h-8 text-[#D4AF37]" />
+              </div>
+              <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Proven Track Record</h3>
+              <p className="text-gray-600">
+                15+ years of consistent performance and successful wealth creation
+              </p>
+            </div>
+
+            <div className="text-center p-6 rounded-lg border border-gray-100 hover:shadow-lg transition-shadow duration-300">
+              <div className="w-16 h-16 bg-[#0a1628] rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-[#D4AF37]" />
+              </div>
+              <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Dedicated Support</h3>
+              <p className="text-gray-600">
+                Personal relationship manager for all your investment needs
+              </p>
+            </div>
           </div>
         </div>
       </section>
