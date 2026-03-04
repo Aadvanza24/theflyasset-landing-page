@@ -3,8 +3,8 @@ import React from 'react';
 const Card = ({ title, description, icon, children, className = '', hover = true }) => {
   return (
     <div
-      className={`bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 backdrop-blur-sm ${
-        hover ? 'hover:border-[#D4AF37] hover:shadow-lg hover:shadow-[#D4AF37]/5' : ''
+      className={`bg-white border border-gray-200 rounded-xl p-6 shadow-sm ${
+        hover ? 'hover:border-[#D4AF37] hover:shadow-md' : ''
       } transition-all duration-300 ${className}`}
     >
       {icon && (
@@ -13,10 +13,10 @@ const Card = ({ title, description, icon, children, className = '', hover = true
         </div>
       )}
       {title && (
-        <h3 className="text-xl font-semibold text-neutral-100 mb-3">{title}</h3>
+        <h3 className="text-xl font-semibold text-[#0a1628] mb-3">{title}</h3>
       )}
       {description && (
-        <p className="text-neutral-400 leading-relaxed">{description}</p>
+        <p className="text-gray-600 leading-relaxed">{description}</p>
       )}
       {children}
     </div>

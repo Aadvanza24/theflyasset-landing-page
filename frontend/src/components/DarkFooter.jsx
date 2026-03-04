@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin } from 'lucide-react';
 
-const DarkFooter = () => {
+const LightFooter = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
@@ -21,7 +21,7 @@ const DarkFooter = () => {
   ];
 
   return (
-    <footer className="bg-[#0a0a0b] text-neutral-300 border-t border-neutral-800">
+    <footer className="bg-gray-50 text-gray-700 border-t border-gray-200">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
@@ -32,26 +32,26 @@ const DarkFooter = () => {
                 alt="The Fly Asset"
                 className="h-10 w-auto"
               />
-              <span className="text-lg font-semibold text-neutral-100">THE FLY ASSET</span>
+              <span className="text-lg font-semibold text-[#0a1628]">THE FLY ASSET</span>
             </div>
-            <p className="text-sm text-neutral-400 leading-relaxed mb-4">
+            <p className="text-sm text-gray-600 leading-relaxed mb-4">
               Research-driven proprietary trading and market research firm based in Kolkata, India.
             </p>
             <div className="flex items-start space-x-2">
               <MapPin size={18} className="text-[#D4AF37] mt-0.5 flex-shrink-0" />
-              <span className="text-sm text-neutral-400">Kolkata, West Bengal, India</span>
+              <span className="text-sm text-gray-600">Kolkata, West Bengal, India</span>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-100 mb-4 uppercase tracking-wider">Navigation</h3>
+            <h3 className="text-sm font-semibold text-[#0a1628] mb-4 uppercase tracking-wider">Navigation</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.path}
-                    className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors duration-200"
+                    className="text-sm text-gray-600 hover:text-[#D4AF37] transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -62,13 +62,13 @@ const DarkFooter = () => {
 
           {/* Legal Links */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-100 mb-4 uppercase tracking-wider">Legal</h3>
+            <h3 className="text-sm font-semibold text-[#0a1628] mb-4 uppercase tracking-wider">Legal</h3>
             <ul className="space-y-2">
               {legalLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.path}
-                    className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors duration-200"
+                    className="text-sm text-gray-600 hover:text-[#D4AF37] transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -79,12 +79,12 @@ const DarkFooter = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-neutral-800 pt-8">
+        <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-neutral-500">
+            <p className="text-sm text-gray-500">
               © {currentYear} THE FLY ASSET. All rights reserved.
             </p>
-            <p className="text-xs text-neutral-500 text-center">
+            <p className="text-xs text-gray-500 text-center">
               For educational and informational purposes only. Not investment advice.
             </p>
           </div>
@@ -94,4 +94,4 @@ const DarkFooter = () => {
   );
 };
 
-export default DarkFooter;
+export default LightFooter;

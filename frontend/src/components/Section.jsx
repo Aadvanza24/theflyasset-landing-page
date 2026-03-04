@@ -12,12 +12,12 @@ const Section = ({ children, title, subtitle, eyebrow, className = '' }) => {
               </p>
             )}
             {title && (
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-100 mb-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0a1628] mb-4">
                 {title}
               </h2>
             )}
             {subtitle && (
-              <p className="text-lg text-neutral-400 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
                 {subtitle}
               </p>
             )}

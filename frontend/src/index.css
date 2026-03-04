@@ -9,8 +9,8 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #0a0a0b;
-    color: #f5f5f5;
+    background-color: #ffffff;
+    color: #0a1628;
 }
 
 code {
@@ -21,47 +21,26 @@ code {
 
 @layer base {
   :root {
-        --background: 10 10 11;
-        --foreground: 245 245 245;
-        --card: 23 23 23;
-        --card-foreground: 245 245 245;
-        --popover: 10 10 11;
-        --popover-foreground: 245 245 245;
-        --primary: 212 175 55;
-        --primary-foreground: 10 10 11;
-        --secondary: 38 38 38;
-        --secondary-foreground: 245 245 245;
-        --muted: 38 38 38;
-        --muted-foreground: 163 163 163;
+        --background: 0 0% 100%;
+        --foreground: 10 28% 9%;
+        --card: 240 10% 98%;
+        --card-foreground: 10 28% 9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 10 28% 9%;
+        --primary: 10 28% 9%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 220 14% 96%;
+        --secondary-foreground: 10 28% 9%;
+        --muted: 220 14% 96%;
+        --muted-foreground: 215 16% 47%;
         --accent: 212 175 55;
-        --accent-foreground: 10 10 11;
-        --destructive: 239 68 68;
-        --destructive-foreground: 245 245 245;
-        --border: 38 38 38;
-        --input: 38 38 38;
-        --ring: 212 175 55;
+        --accent-foreground: 10 28% 9%;
+        --destructive: 0 84% 60%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 220 13% 91%;
+        --input: 220 13% 91%;
+        --ring: 212 100% 47%;
         --radius: 0.5rem;
-    }
-  .dark {
-        --background: 10 10 11;
-        --foreground: 245 245 245;
-        --card: 23 23 23;
-        --card-foreground: 245 245 245;
-        --popover: 10 10 11;
-        --popover-foreground: 245 245 245;
-        --primary: 212 175 55;
-        --primary-foreground: 10 10 11;
-        --secondary: 38 38 38;
-        --secondary-foreground: 245 245 245;
-        --muted: 38 38 38;
-        --muted-foreground: 163 163 163;
-        --accent: 212 175 55;
-        --accent-foreground: 10 10 11;
-        --destructive: 239 68 68;
-        --destructive-foreground: 245 245 245;
-        --border: 38 38 38;
-        --input: 38 38 38;
-        --ring: 212 175 55;
     }
 }
 

@@ -17,7 +17,7 @@ import { Toaster } from './components/ui/toaster';
 
 function App() {
   return (
-    <div className="App bg-[#0a0a0b] min-h-screen">
+    <div className="App bg-white min-h-screen">
       <BrowserRouter>
         <DarkNavbar />
         <Routes>
