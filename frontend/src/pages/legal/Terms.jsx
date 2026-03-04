@@ -3,10 +3,10 @@ import Section from '../../components/Section';
 
 const Terms = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       <Section eyebrow="Legal" title="Terms of Use">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-8 space-y-8 text-neutral-300">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 space-y-8 text-gray-700">
             <p className="leading-relaxed">
               By accessing and using this website, you agree to these Terms of Use.
             </p>

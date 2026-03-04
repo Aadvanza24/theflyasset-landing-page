@@ -3,18 +3,18 @@ import Section from '../../components/Section';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       <Section eyebrow="Legal" title="Privacy Policy">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-8 space-y-8 text-neutral-300">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 space-y-8 text-gray-700">
             <p className="leading-relaxed">
               THE FLY ASSET respects your privacy. This policy explains how we collect, use, and protect information 
               when you use our website.
             </p>
 
             <div>
-              <h3 className="text-xl font-semibold text-neutral-100 mb-3">Information We May Collect</h3>
-              <ul className="list-disc list-inside space-y-2 text-neutral-400">
+              <h3 className="text-xl font-semibold text-[#0a1628] mb-3">Information We May Collect</h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-600">
                 <li>Information you submit via contact forms (e.g., name, email, subject, message)</li>
                 <li>Basic technical information (e.g., browser type, device information, approximate location, pages visited) 
                     through standard analytics and logs</li>

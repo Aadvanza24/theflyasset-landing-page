@@ -19,7 +19,7 @@ const Insights = () => {
     : insightsPosts.filter(post => post.category === activeCategory);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       {/* Page Header */}
       <Section 
         eyebrow="Research & Learning" 
@@ -36,8 +36,8 @@ const Insights = () => {
               onClick={() => setActiveCategory(category)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                 activeCategory === category
-                  ? 'bg-[#D4AF37] text-[#0a0a0b]'
-                  : 'bg-neutral-900 text-neutral-400 border border-neutral-800 hover:border-[#D4AF37]'
+                  ? 'bg-[#0a1628] text-white shadow-lg'
+                  : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-[#D4AF37]'
               }`}
             >
               {category}
@@ -47,7 +47,7 @@ const Insights = () => {
       </div>
 
       {/* Posts Grid */}
-      <Section className="bg-neutral-950">
+      <Section className="bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {filteredPosts.map((post) => (
             <Card key={post.id} hover={true}>
@@ -56,14 +56,14 @@ const Insights = () => {
                   {post.category}
                 </span>
               </div>
-              <h3 className="text-xl font-semibold text-neutral-100 mb-3 leading-tight">
+              <h3 className="text-xl font-semibold text-[#0a1628] mb-3 leading-tight">
                 {post.title}
               </h3>
-              <p className="text-neutral-400 text-sm mb-4 leading-relaxed">
+              <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                 {post.excerpt}
               </p>
               <div className="flex items-center justify-between">
-                <span className="text-xs text-neutral-500">{post.date}</span>
+                <span className="text-xs text-gray-500">{post.date}</span>
               </div>
             </Card>
           ))}
@@ -71,7 +71,7 @@ const Insights = () => {
 
         {filteredPosts.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-neutral-500">No posts found in this category.</p>
+            <p className="text-gray-500">No posts found in this category.</p>
           </div>
         )}
       </Section>
@@ -79,9 +79,9 @@ const Insights = () => {
       {/* Compliance Note */}
       <Section>
         <div className="max-w-2xl mx-auto text-center">
-          <div className="bg-neutral-900/30 border border-neutral-800 rounded-lg p-6">
-            <p className="text-sm text-neutral-400">
-              <strong className="text-neutral-300">Note:</strong> All content is for educational and informational purposes only.
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <p className="text-sm text-gray-600">
+              <strong className="text-[#0a1628]">Note:</strong> All content is for educational and informational purposes only.
             </p>
           </div>
         </div>

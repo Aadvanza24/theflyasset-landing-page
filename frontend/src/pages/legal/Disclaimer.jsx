@@ -3,10 +3,10 @@ import Section from '../../components/Section';
 
 const Disclaimer = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       <Section eyebrow="Legal" title="Disclaimer">
-        <div className="max-w-4xl mx-auto prose prose-invert prose-neutral">
-          <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-8 space-y-6 text-neutral-300">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 space-y-6 text-gray-700">
             <p className="leading-relaxed">
               THE FLY ASSET ("we", "our", "us") provides information on this website for general informational 
               and educational purposes only. Nothing on this website constitutes investment advice, financial advice, 
@@ -14,7 +14,7 @@ const Disclaimer = () => {
             </p>
 
             <p className="leading-relaxed">
-              We are <strong className="text-neutral-100">not soliciting funds</strong>, offering portfolio management services, or making any public 
+              We are <strong className="text-[#0a1628]">not soliciting funds</strong>, offering portfolio management services, or making any public 
               offer of securities through this website. Any references to markets, instruments, strategies, or research 
               are provided for general information and do not constitute a recommendation to buy, sell, or hold any 
               security or instrument.
@@ -31,7 +31,7 @@ const Disclaimer = () => {
               use of this website or reliance on any information contained herein.
             </p>
 
-            <p className="text-sm text-neutral-400 mt-8">
+            <p className="text-sm text-gray-500 mt-8">
               Last updated: March 2026
             </p>
           </div>
