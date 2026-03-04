@@ -40,6 +40,17 @@ const Contact = () => {
         subtitle="Kolkata, West Bengal, India"
       />
 
+      {/* Feature Image */}
+      <div className="container mx-auto px-4 mb-12">
+        <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-xl">
+          <img 
+            src="https://images.unsplash.com/photo-1746021375246-7dc8ab0583f0?w=1400&q=80"
+            alt="Professional Office Space"
+            className="w-full h-64 object-cover"
+          />
+        </div>
+      </div>
+
       <Section className="bg-gray-50">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Info */}

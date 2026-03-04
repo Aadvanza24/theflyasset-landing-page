@@ -27,6 +27,17 @@ const Insights = () => {
         subtitle="Notes on market structure, risk, derivatives, and commodities"
       />
 
+      {/* Feature Image */}
+      <div className="container mx-auto px-4 mb-12">
+        <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-xl">
+          <img 
+            src="https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?w=1200&q=80"
+            alt="Stock Market Data Display"
+            className="w-full h-80 object-cover"
+          />
+        </div>
+      </div>
+
       {/* Category Filter */}
       <div className="container mx-auto px-4 mb-12">
         <div className="flex flex-wrap gap-3 justify-center">
