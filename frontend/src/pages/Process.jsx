@@ -4,7 +4,7 @@ import { processDetails } from '../data/content';
 
 const Process = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       {/* Page Header */}
       <Section 
         eyebrow="How We Work" 
@@ -12,8 +12,19 @@ const Process = () => {
         subtitle="Structured workflow designed for discipline and consistency"
       />
 
+      {/* Process Visual */}
+      <div className="container mx-auto px-4 mb-16">
+        <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-xl">
+          <img 
+            src="https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?w=1200&q=80"
+            alt="Stock Market Analysis Charts"
+            className="w-full h-80 object-cover"
+          />
+        </div>
+      </div>
+
       {/* Process Steps */}
-      <Section className="bg-neutral-950">
+      <Section className="bg-gray-50">
         <div className="max-w-4xl mx-auto space-y-8">
           {processDetails.map((step, index) => (
             <div key={step.id} className="flex items-start space-x-6">

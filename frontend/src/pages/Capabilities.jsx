@@ -6,7 +6,7 @@ import { capabilities } from '../data/content';
 
 const Capabilities = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
+    <div className="min-h-screen bg-white pt-24">
       {/* Page Header */}
       <Section 
         eyebrow="What We Do" 
@@ -14,8 +14,19 @@ const Capabilities = () => {
         subtitle="Research, frameworks, and disciplined market execution"
       />
 
+      {/* Feature Image */}
+      <div className="container mx-auto px-4 mb-16">
+        <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+          <img 
+            src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?w=1400&q=80"
+            alt="Professional Trading Interface"
+            className="w-full h-96 object-cover"
+          />
+        </div>
+      </div>
+
       {/* Capability Blocks */}
-      <Section className="bg-neutral-950">
+      <Section className="bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {capabilities.map((capability) => (
             <Card

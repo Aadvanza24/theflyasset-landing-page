@@ -14,34 +14,56 @@ const About = () => {
       />
 
       {/* Overview */}
-      <Section className="bg-neutral-950">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-lg text-neutral-300 leading-relaxed mb-6">
-            THE FLY ASSET is built by market professionals with over two decades of experience, including 
-            significant exposure to commodity markets alongside equities and derivatives. We operate with a 
-            research-first mindset and structured risk frameworks.
-          </p>
-          <p className="text-lg text-neutral-400 leading-relaxed">
-            Our approach emphasizes discipline, continuous learning, and process-driven decision making across 
-            multiple asset classes and market conditions.
-          </p>
+      <Section className="bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                THE FLY ASSET is built by market professionals with over two decades of experience, including 
+                significant exposure to commodity markets alongside equities and derivatives. We operate with a 
+                research-first mindset and structured risk frameworks.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Our approach emphasizes discipline, continuous learning, and process-driven decision making across 
+                multiple asset classes and market conditions.
+              </p>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1722159475082-0a2331580de3?w=800&q=80"
+                alt="Professional Trading Workspace"
+                className="w-full h-80 object-cover"
+              />
+            </div>
+          </div>
         </div>
       </Section>
 
       {/* Mission */}
-      <Section eyebrow="Mission" title="Our Mission">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl text-neutral-300 leading-relaxed">
-            To develop sustainable trading frameworks through disciplined research, robust risk management, 
-            and continuous learning.
-          </p>
+      <Section eyebrow="Mission" title="Our Mission" className="bg-gray-50">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1 rounded-xl overflow-hidden shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1642751226315-e6dc6b47fd54?w=800&q=80"
+                alt="Financial Data Display"
+                className="w-full h-80 object-cover"
+              />
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-xl text-gray-700 leading-relaxed">
+                To develop sustainable trading frameworks through disciplined research, robust risk management, 
+                and continuous learning.
+              </p>
+            </div>
+          </div>
         </div>
       </Section>
 
       {/* Vision */}
-      <Section eyebrow="Vision" title="Our Vision" className="bg-neutral-950">
+      <Section eyebrow="Vision" title="Our Vision">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl text-neutral-300 leading-relaxed">
+          <p className="text-xl text-gray-700 leading-relaxed">
             To build a professional, research-led trading environment that values integrity, process, 
             and responsible market participation.
           </p>

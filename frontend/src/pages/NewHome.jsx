@@ -24,13 +24,15 @@ const NewHome = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden bg-gradient-to-br from-gray-50 to-white">
-        {/* Subtle grid pattern */}
-        <div className="absolute inset-0 opacity-[0.02]">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'linear-gradient(#0a1628 1px, transparent 1px), linear-gradient(90deg, #0a1628 1px, transparent 1px)',
-            backgroundSize: '50px 50px'
-          }}></div>
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-white via-gray-50 to-white opacity-90 z-10"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1639917714192-557a6143f788?w=1920&q=80"
+            alt="Trading Workstation"
+            className="w-full h-full object-cover opacity-10"
+          />
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
@@ -80,11 +82,24 @@ const NewHome = () => {
 
       {/* About Snapshot */}
       <Section eyebrow="Who We Are" title="Built on Experience. Driven by Research.">
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg text-gray-600 leading-relaxed">
-            We focus on structured market research, disciplined execution, and robust risk frameworks. 
-            Our work emphasizes repeatable processes and long-term consistency.
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                We focus on structured market research, disciplined execution, and robust risk frameworks.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Our work emphasizes repeatable processes and long-term consistency in equities, derivatives, and commodity markets.
+              </p>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg">
+              <img 
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                alt="Financial Analytics"
+                className="w-full h-64 object-cover"
+              />
+            </div>
+          </div>
         </div>
       </Section>
 
@@ -121,7 +136,16 @@ const NewHome = () => {
         title="Research & Technology" 
         className="bg-gray-50"
       >
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
+          {/* Feature Image */}
+          <div className="mb-12 rounded-xl overflow-hidden shadow-xl">
+            <img 
+              src="https://images.unsplash.com/photo-1748439146117-31978164865d?w=1200&q=80"
+              alt="Stock Market Data Analysis"
+              className="w-full h-96 object-cover"
+            />
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
