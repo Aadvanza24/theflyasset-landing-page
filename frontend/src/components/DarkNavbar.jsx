@@ -28,7 +28,7 @@ const LightNavbar = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-white'
+        isScrolled ? 'bg-[#0c102e]/95 backdrop-blur-md shadow-md' : 'bg-[#0c102e]'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -38,9 +38,9 @@ const LightNavbar = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_660d5179-119d-444e-bd85-65d7622ccd1e/artifacts/mc40ek90_WhatsApp%20Image%202026-03-02%20at%2011.34.05%20PM.jpeg"
               alt="The Fly Asset"
-              className="h-10 w-auto"
+              className="h-14 w-auto object-cover rounded"
             />
-            <span className="text-xl font-semibold text-[#0a1628] tracking-tight">THE FLY ASSET</span>
+            <span className="text-xl font-semibold text-white tracking-tight">THE FLY ASSET</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -49,7 +49,7 @@ const LightNavbar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`text-gray-700 hover:text-[#D4AF37] transition-colors duration-200 font-medium ${
+                className={`text-white hover:text-[#D4AF37] transition-colors duration-200 font-medium ${
                   location.pathname === link.path ? 'text-[#D4AF37]' : ''
                 }`}
               >
@@ -71,7 +71,7 @@ const LightNavbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-[#0a1628]"
+            className="md:hidden text-white"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -80,14 +80,14 @@ const LightNavbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
+          <div className="md:hidden bg-[#0c102e] border-t border-white/10">
             <nav className="flex flex-col py-4 space-y-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`text-gray-700 hover:text-[#D4AF37] px-4 py-2 transition-colors duration-200 ${
+                  className={`text-white hover:text-[#D4AF37] px-4 py-2 transition-colors duration-200 ${
                     location.pathname === link.path ? 'text-[#D4AF37]' : ''
                   }`}
                 >
