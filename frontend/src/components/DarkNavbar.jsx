@@ -62,7 +62,7 @@ const LightNavbar = () => {
           <div className="hidden md:block">
             <Link to="/contact">
               <Button
-                className="bg-[#0a1628] hover:bg-[#1a2332] text-white font-semibold px-6 py-2 transition-all duration-300"
+                className="bg-[#D4AF37] hover:bg-[#B8941F] text-[#0a1628] font-semibold px-6 py-2 transition-all duration-300"
               >
                 Connect
               </Button>
@@ -97,7 +97,7 @@ const LightNavbar = () => {
               <div className="px-4 pt-2">
                 <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                   <Button
-                    className="w-full bg-[#0a1628] hover:bg-[#1a2332] text-white font-semibold"
+                    className="w-full bg-[#D4AF37] hover:bg-[#B8941F] text-[#0a1628] font-semibold"
                   >
                     Connect
                   </Button>
