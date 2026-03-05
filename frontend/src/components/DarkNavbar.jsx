@@ -17,6 +17,7 @@ const LightNavbar = () => {
   }, []);
 
   const navLinks = [
+    { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Capabilities', path: '/capabilities' },
     { name: 'Process', path: '/process' },

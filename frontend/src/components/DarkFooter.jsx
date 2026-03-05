@@ -6,6 +6,7 @@ const LightFooter = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
+    { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Capabilities', path: '/capabilities' },
     { name: 'Process', path: '/process' },
