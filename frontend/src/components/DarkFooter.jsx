@@ -83,7 +83,7 @@ const LightFooter = () => {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-500">
-              Made with ❤️ Ads Idea Tech @ THE FLY ASSET © {currentYear}. All rights reserved.
+              Made with ❤️ <a href="https://ads-idea.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-[#B8941F] font-medium transition-colors duration-200">Ads Idea Tech</a> @ THE FLY ASSET © {currentYear}. All rights reserved.
             </p>
             <p className="text-xs text-gray-500 text-center">
               For educational and informational purposes only. Not investment advice.
