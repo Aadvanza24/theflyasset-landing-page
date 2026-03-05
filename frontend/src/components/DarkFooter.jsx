@@ -86,6 +86,7 @@ const LightFooter = () => {
               Made with ❤️ <a href="https://ads-idea.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-[#B8941F] font-medium transition-colors duration-200">Ads Idea Tech</a> @ THE FLY ASSET © {currentYear}. All rights reserved.
             </p>
             <p className="text-xs text-gray-500 text-center">
+              For educational and informational purposes only. Not investment advice.
             </p>
           </div>
         </div>
