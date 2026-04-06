@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
 
 const LightFooter = () => {
   const currentYear = new Date().getFullYear();
@@ -38,9 +38,20 @@ const LightFooter = () => {
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
               Research-driven proprietary trading and market research firm based in Kolkata, India.
             </p>
-            <div className="flex items-start space-x-2">
+            <div className="flex items-start space-x-2 mb-3">
               <MapPin size={18} className="text-[#D4AF37] mt-0.5 flex-shrink-0" />
-              <span className="text-sm text-gray-600">Kolkata, West Bengal, India</span>
+              <span className="text-sm text-gray-600 leading-relaxed">
+                90 Degree Magnus, EP Block - 90,<br />
+                Room No. 701, 7th Floor, Street No. 15,<br />
+                Sector - V, Bidhannagar,<br />
+                Kolkata 700091, WB.
+              </span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Mail size={18} className="text-[#D4AF37] flex-shrink-0" />
+              <a href="mailto:info@theflyasset.com" className="text-sm text-gray-600 hover:text-[#D4AF37] transition-colors duration-200">
+                info@theflyasset.com
+              </a>
             </div>
           </div>
 

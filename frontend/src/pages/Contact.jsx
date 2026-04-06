@@ -67,7 +67,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-[#0a1628] mb-1">Location</h4>
-                  <p className="text-gray-600">Kolkata, West Bengal, India</p>
+                  <p className="text-gray-600 leading-relaxed">
+                    90 Degree Magnus, EP Block - 90,<br />
+                    Room No. 701, 7th Floor, Street No. 15,<br />
+                    Sector - V, Bidhannagar,<br />
+                    Kolkata 700091, WB.
+                  </p>
                 </div>
               </div>
 
@@ -77,7 +82,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-[#0a1628] mb-1">Email</h4>
-                  <p className="text-gray-600 text-sm">Contact details will be updated shortly</p>
+                  <a href="mailto:info@theflyasset.com" className="text-gray-600 hover:text-[#D4AF37] transition-colors duration-200">
+                    info@theflyasset.com
+                  </a>
                 </div>
               </div>
             </div>
