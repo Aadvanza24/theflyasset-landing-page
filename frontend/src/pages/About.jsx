@@ -5,13 +5,21 @@ import { values } from '../data/content';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0b] pt-24">
-      {/* Page Header */}
-      <Section 
-        eyebrow="About Us" 
-        title="About THE FLY ASSET"
-        subtitle="Kolkata-based proprietary trading & research firm"
-      />
+    <div className="min-h-screen bg-white pt-24">
+      {/* Page Header with Hero Image */}
+      <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1758216863138-96ec40dac9c4?w=1600&q=80"
+          alt="Corporate Finance Skyline"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-[#0c102e]/75" />
+        <div className="relative z-10 text-center px-4">
+          <p className="text-[#D4AF37] text-sm font-semibold uppercase tracking-widest mb-3">About Us</p>
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">About THE FLY ASSET</h1>
+          <p className="text-lg text-gray-300">Kolkata-based proprietary trading & research firm</p>
+        </div>
+      </div>
 
       {/* Overview */}
       <Section className="bg-gray-50">
