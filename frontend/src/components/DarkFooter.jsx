@@ -36,7 +36,7 @@ const LightFooter = () => {
               <span className="text-lg font-semibold text-[#0a1628]">THE FLY ASSET</span>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed mb-4">
-              Research-driven proprietary trading and market research firm based in Kolkata, India.
+              Research-driven trading and market research firm based in Kolkata, India.
             </p>
             <div className="flex items-start space-x-2 mb-3">
               <MapPin size={18} className="text-[#D4AF37] mt-0.5 flex-shrink-0" />

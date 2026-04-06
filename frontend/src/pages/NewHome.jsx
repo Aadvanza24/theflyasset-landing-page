@@ -42,7 +42,7 @@ const NewHome = () => {
               <span className="block text-[#D4AF37] mt-2">Disciplined Market Strategies.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
-              THE FLY ASSET is a proprietary trading and market research firm based in Kolkata, West Bengal, 
+              THE FLY ASSET is a trading and market research firm based in Kolkata, West Bengal, 
               led by professionals with 20+ years of experience across equities, derivatives, and commodity markets.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

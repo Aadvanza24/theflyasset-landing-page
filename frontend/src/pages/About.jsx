@@ -17,7 +17,7 @@ const About = () => {
         <div className="relative z-10 text-center px-4">
           <p className="text-[#D4AF37] text-sm font-semibold uppercase tracking-widest mb-3">About Us</p>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">About THE FLY ASSET</h1>
-          <p className="text-lg text-gray-300">Kolkata-based proprietary trading & research firm</p>
+          <p className="text-lg text-gray-300">Kolkata-based trading & research firm</p>
         </div>
       </div>
 
