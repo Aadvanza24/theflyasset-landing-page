@@ -95,28 +95,28 @@ const About = () => {
       <Section 
         eyebrow="Leadership" 
         title="Experience Across Market Cycles"
-        className="bg-neutral-950"
+        className="bg-gray-50"
       >
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg text-neutral-400 leading-relaxed mb-8 text-center">
+          <p className="text-lg text-gray-600 leading-relaxed mb-8 text-center">
             The leadership team brings experience across market cycles, with hands-on exposure to:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-neutral-100 mb-3">Equity Markets</h3>
-              <p className="text-neutral-400">Market structure analysis, sector trends, and systematic equity research frameworks.</p>
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-semibold text-[#0a1628] mb-3">Equity Markets</h3>
+              <p className="text-gray-600">Market structure analysis, sector trends, and systematic equity research frameworks.</p>
             </div>
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-neutral-100 mb-3">Derivatives</h3>
-              <p className="text-neutral-400">Options strategies, volatility behavior, and risk-defined trading approaches.</p>
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-semibold text-[#0a1628] mb-3">Derivatives</h3>
+              <p className="text-gray-600">Options strategies, volatility behavior, and risk-defined trading approaches.</p>
             </div>
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-neutral-100 mb-3">Commodities</h3>
-              <p className="text-neutral-400">Global macro-linked commodity research influenced by supply-demand and policy dynamics.</p>
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-semibold text-[#0a1628] mb-3">Commodities</h3>
+              <p className="text-gray-600">Global macro-linked commodity research influenced by supply-demand and policy dynamics.</p>
             </div>
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6">
-              <h3 className="text-lg font-semibold text-neutral-100 mb-3">Risk Frameworks</h3>
-              <p className="text-neutral-400">Structured risk controls, position sizing, and disciplined execution practices.</p>
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-semibold text-[#0a1628] mb-3">Risk Frameworks</h3>
+              <p className="text-gray-600">Structured risk controls, position sizing, and disciplined execution practices.</p>
             </div>
           </div>
         </div>

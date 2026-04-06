@@ -37,7 +37,7 @@ const Process = () => {
                 <h3 className="text-2xl font-semibold text-neutral-100 mb-3">{step.title}</h3>
                 <p className="text-lg text-neutral-400 leading-relaxed">{step.description}</p>
                 {index < processDetails.length - 1 && (
-                  <div className="mt-6 h-12 w-0.5 bg-neutral-800 ml-8"></div>
+                  <div className="mt-6 h-12 w-0.5 bg-gray-300 ml-8"></div>
                 )}
               </div>
             </div>
@@ -47,11 +47,11 @@ const Process = () => {
 
       {/* Closing Statement */}
       <Section>
-        <div className="max-w-3xl mx-auto text-center bg-neutral-900/50 border border-neutral-800 rounded-xl p-12">
-          <p className="text-xl text-neutral-300 leading-relaxed mb-4">
+        <div className="max-w-3xl mx-auto text-center bg-gray-50 border border-gray-200 rounded-xl p-12 shadow-sm">
+          <p className="text-xl text-gray-700 leading-relaxed mb-4">
             Our goal is <strong className="text-[#D4AF37]">repeatability and process quality</strong>—
           </p>
-          <p className="text-lg text-neutral-400">
+          <p className="text-lg text-gray-600">
             because markets reward discipline over time.
           </p>
         </div>

@@ -45,32 +45,32 @@ const Capabilities = () => {
       >
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-8 flex items-start space-x-4">
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 flex items-start space-x-4 shadow-sm">
               <div className="flex-shrink-0">
                 <AlertCircle className="w-6 h-6 text-[#D4AF37]" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-neutral-100 mb-2">No Performance Claims</h3>
-                <p className="text-neutral-400">
+                <h3 className="text-lg font-semibold text-[#0a1628] mb-2">No Performance Claims</h3>
+                <p className="text-gray-600">
                   We do not publish performance claims or historical returns on this website.
                 </p>
               </div>
             </div>
-            <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-8 flex items-start space-x-4">
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 flex items-start space-x-4 shadow-sm">
               <div className="flex-shrink-0">
                 <Shield className="w-6 h-6 text-[#D4AF37]" />
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-neutral-100 mb-2">No Investment Advice</h3>
-                <p className="text-neutral-400">
+                <h3 className="text-lg font-semibold text-[#0a1628] mb-2">No Investment Advice</h3>
+                <p className="text-gray-600">
                   We do not provide investment advice or recommendations through this site.
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-8 bg-neutral-900/30 border border-neutral-800 rounded-xl p-6 text-center">
-            <p className="text-sm text-neutral-400 leading-relaxed">
-              All content on this website is for <strong className="text-neutral-300">educational and informational purposes only</strong>. 
+          <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-6 text-center shadow-sm">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              All content on this website is for <strong className="text-[#0a1628]">educational and informational purposes only</strong>. 
               We are not soliciting funds or making any public offer through this platform.
             </p>
           </div>
