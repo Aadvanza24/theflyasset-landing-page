@@ -168,8 +168,8 @@ const Home = () => {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2">
-                      {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-start">
+                      {service.features.map((feature) => (
+                        <li key={feature} className="flex items-start">
                           <ChevronRight className="w-5 h-5 text-[#D4AF37] mr-2 flex-shrink-0 mt-0.5" />
                           <span className="text-gray-700">{feature}</span>
                         </li>
@@ -452,7 +452,7 @@ const Home = () => {
               <div key={testimonial.id} className="bg-white/5 backdrop-blur-sm p-8 rounded-lg border border-white/10">
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-[#D4AF37] fill-current" />
+                    <Star key={`star-${i}`} className="w-5 h-5 text-[#D4AF37] fill-current" />
                   ))}
                 </div>
                 <p className="text-white/90 mb-6 leading-relaxed italic">"{testimonial.content}"</p>

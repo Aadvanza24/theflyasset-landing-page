@@ -155,8 +155,8 @@ const NewHome = () => {
             </div>
             <div>
               <ul className="space-y-4">
-                {researchBullets.map((bullet, idx) => (
-                  <li key={idx} className="flex items-start">
+                {researchBullets.map((bullet) => (
+                  <li key={bullet} className="flex items-start">
                     <div className="w-2 h-2 bg-[#D4AF37] rounded-full mt-2 mr-3 flex-shrink-0"></div>
                     <span className="text-gray-700">{bullet}</span>
                   </li>
